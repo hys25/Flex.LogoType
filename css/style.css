@@ -26,6 +26,9 @@
         header{
           font-family: 'Roboto', sans-serif;
         }
+        h2{
+          margin-top: 0em;
+        }
         .header__top{
           background-color: #303030;
         }
@@ -139,7 +142,7 @@
           display: inline-block;
           font-size: 14px;
           line-height: 24px;
-          color: #fff;
+          color: #111111;
           font-weight: 500;
           font-family: 'Roboto', sans-serif;
           padding: 8px 30px 8px 24px;
@@ -298,9 +301,7 @@
           background-repeat: no-repeat;
           padding: 25px 0px 45px;
         }
-        .about__inner{
-          max-width: 545px;
-        }
+ 
         .about__title{
           padding: 10px 0px 25px;
           font-size: 24px;
@@ -335,13 +336,14 @@
         .form__box-inner{
           display: flex;
           justify-content: space-between;
+          width: 1150px;
         }
         .form__box-left{
-          max-width: 260px;
+          max-width: 300px;
           width: 100%;
         }
         .form__box-right{
-          max-width: 555px;
+          max-width:800px;
           width: 100%;
         }
         .form__box-inner label,
@@ -460,6 +462,7 @@
           font-family: 'Roboto', sans-serif;
           padding: 60px 0px 15px;
           position: relative;
+          color: #282828;
         }
         .advantages__title:before{
           content: "";
@@ -597,6 +600,9 @@
           padding-top: 10px;
           max-width: 630px;
           width: 100%;
+        }
+        iframe{
+          height: 250px;
         }
         .footer__map iframe{
           width: 100%;
